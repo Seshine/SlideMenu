@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibStick5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="doSetting"
+
+            app:srcCompat="@drawable/stick5" />
+
+        <ImageButton
+            android:id="@+id/ibStick4"
+            android:onClick="doSetting"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/stick1" />
+
+        <ImageButton
+            android:id="@+id/ibStick3"
+            android:layout_width="80dp"
+            android:onClick="doSetting"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/stick3" />
+
+        <ImageButton
+            android:id="@+id/ibStick2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/stick2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignStart="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibStick9"
+            android:layout_width="80dp"
+            android:onClick="doSetting"
+            android:layout_height="80dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/stick9" />
+
+        <ImageButton
+            android:id="@+id/ibStick8"
+            android:onClick="doSetting"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            app:srcCompat="@drawable/stick8" />
+
+        <ImageButton
+            android:id="@+id/ibStick10"
+            android:layout_width="80dp"
+            android:onClick="doSetting"
+            android:layout_height="80dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/stick11" />
+
+        <ImageButton
+            android:id="@+id/ibStick7"
+            android:layout_width="80dp"
+            android:onClick="doSetting"
+            android:layout_height="80dp"
+
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/stick7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="325dp"
+        android:onClick="doSetting"
+        android:layout_height="80dp"
+
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibStick12"
+            android:layout_width="80dp"
+            android:onClick="doSetting"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/stick18" />
+
+        <ImageButton
+            android:id="@+id/ibStick11"
+            android:onClick="doSetting"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/stick14" />
+
+        <ImageButton
+            android:id="@+id/ibStick6"
+            android:layout_width="80dp"
+            android:onClick="doSetting"
+            android:layout_height="80dp"
+
+            app:srcCompat="@drawable/stick6" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_marginTop="73dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fs1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs1" />
+
+            <ImageView
+                android:id="@+id/fs2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="190dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs2" />
+
+            <ImageView
+                android:id="@+id/fs3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="190dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs3" />
+
+            <ImageView
+                android:id="@+id/fs4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="380dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs4" />
+
+            <ImageView
+                android:id="@+id/fs5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="380dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs5" />
+
+            <ImageView
+                android:id="@+id/fs6"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="190dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs6" />
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/fs7"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="570dp"
+                android:src="@drawable/fs7" />
+
+            <ImageView
+                android:id="@+id/fs8"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="570dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fs8" />
+
+
+            <ImageView
+                android:id="@+id/fs9"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="760dp"
+                android:src="@drawable/fs9" />
+
+            <ImageView
+                android:id="@+id/friendship"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="760dp"
+                android:layout_marginLeft="190dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/friendship" />
+
+
+
+
+        </FrameLayout>
+    </ScrollView>
+</io.codetail.widget.RevealFrameLayout>
